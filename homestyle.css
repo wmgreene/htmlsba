@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color:aquamarine
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6f00;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url("mathy.jpg")
+}
+
+.hero video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #23463f;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: grey;
+}
+#log{
+  background-color: #555;
+  color: #fff;
+}
+
+#log:hover {
+  background-color: #5f1a1a;
+  cursor: pointer;
+}
